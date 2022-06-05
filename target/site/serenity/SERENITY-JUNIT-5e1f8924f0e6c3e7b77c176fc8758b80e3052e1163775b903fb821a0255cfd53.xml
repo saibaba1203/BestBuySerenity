@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="4" failures="0" name="com.bestbuy.bestbuyinfo.CategoriesCRUDTestWithSteps" skipped="0" tests="4" time="3.0" timestamp="2022-06-05T15:23:06.707+01:00[Europe/London]"><testcase classname="com.bestbuy.bestbuyinfo.CategoriesCRUDTestWithSteps" name="This will create new Category"><error message="tried to access class net.serenitybdd.rest.decorators.request.RequestSpecificationInitialisation from class net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated$ByteBuddy$vYOifhB9" type="java.lang.IllegalAccessError">tried to access class net.serenitybdd.rest.decorators.request.RequestSpecificationInitialisation from class net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated$ByteBuddy$vYOifhB9</error><system-err>tried to access class net.serenitybdd.rest.decorators.request.RequestSpecificationInitialisation from class net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated$ByteBuddy$vYOifhB9&#13;
+net.serenitybdd.rest.utils.RestSpecificationFactory.getInstrumentedRequestSpecification(RestSpecificationFactory.java:107)&#13;
+net.serenitybdd.rest.utils.RestDecorationHelper.decorate(RestDecorationHelper.java:20)&#13;
+net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:212)&#13;
+com.bestbuy.bestbuyinfo.CategoriesSteps.createCategory(CategoriesSteps.java:15)&#13;
+com.bestbuy.bestbuyinfo.CategoriesCRUDTestWithSteps.test001(CategoriesCRUDTestWithSteps.java:30)&#13;
+</system-err></testcase><testcase classname="com.bestbuy.bestbuyinfo.CategoriesCRUDTestWithSteps" name="Verify if the Category was created in application"><error message="net/serenitybdd/rest/decorators/request/RequestSpecificationInitialisation" type="java.lang.IllegalAccessError">net/serenitybdd/rest/decorators/request/RequestSpecificationInitialisation</error><system-err>net/serenitybdd/rest/decorators/request/RequestSpecificationInitialisation&#13;
+net.serenitybdd.rest.utils.RestSpecificationFactory.getInstrumentedRequestSpecification(RestSpecificationFactory.java:107)&#13;
+net.serenitybdd.rest.utils.RestDecorationHelper.decorate(RestDecorationHelper.java:20)&#13;
+net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:212)&#13;
+com.bestbuy.bestbuyinfo.CategoriesSteps.getCategoryInfoByName(CategoriesSteps.java:27)&#13;
+com.bestbuy.bestbuyinfo.CategoriesCRUDTestWithSteps.test002(CategoriesCRUDTestWithSteps.java:37)&#13;
+</system-err></testcase><testcase classname="com.bestbuy.bestbuyinfo.CategoriesCRUDTestWithSteps" name="Update Category information and verify the updated information"><error message="net/serenitybdd/rest/decorators/request/RequestSpecificationInitialisation" type="java.lang.IllegalAccessError">net/serenitybdd/rest/decorators/request/RequestSpecificationInitialisation</error><system-err>net/serenitybdd/rest/decorators/request/RequestSpecificationInitialisation&#13;
+net.serenitybdd.rest.utils.RestSpecificationFactory.getInstrumentedRequestSpecification(RestSpecificationFactory.java:107)&#13;
+net.serenitybdd.rest.utils.RestDecorationHelper.decorate(RestDecorationHelper.java:20)&#13;
+net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:212)&#13;
+com.bestbuy.bestbuyinfo.CategoriesSteps.updateCategory(CategoriesSteps.java:40)&#13;
+com.bestbuy.bestbuyinfo.CategoriesCRUDTestWithSteps.test003(CategoriesCRUDTestWithSteps.java:46)&#13;
+</system-err></testcase><testcase classname="com.bestbuy.bestbuyinfo.CategoriesCRUDTestWithSteps" name="Delete Category and verify if the Category is deleted"><error message="net/serenitybdd/rest/decorators/request/RequestSpecificationInitialisation" type="java.lang.IllegalAccessError">net/serenitybdd/rest/decorators/request/RequestSpecificationInitialisation</error><system-err>net/serenitybdd/rest/decorators/request/RequestSpecificationInitialisation&#13;
+net.serenitybdd.rest.utils.RestSpecificationFactory.getInstrumentedRequestSpecification(RestSpecificationFactory.java:107)&#13;
+net.serenitybdd.rest.utils.RestDecorationHelper.decorate(RestDecorationHelper.java:20)&#13;
+net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:212)&#13;
+com.bestbuy.bestbuyinfo.CategoriesSteps.deleteCategory(CategoriesSteps.java:52)&#13;
+com.bestbuy.bestbuyinfo.CategoriesCRUDTestWithSteps.test004(CategoriesCRUDTestWithSteps.java:54)&#13;
+</system-err></testcase></testsuite>
